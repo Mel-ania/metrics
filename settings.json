@@ -2,7 +2,7 @@
   "//": "Example of configuration for metrics web instance",
   "//": "====================================================================",
 
-  "token": "MY GITHUB API TOKEN",  "//": "GitHub Personal Token (required)",
+  "token": "METRICS_TOKEN",        "//": "GitHub Personal Token (required)",
   "restricted": [],                "//": "Authorized users (empty to disable)",
   "maxusers": 0,                   "//": "Maximum users, (0 to disable)",
   "cached": 3600000,               "//": "Cache time rendered metrics (0 to disable)",
@@ -38,7 +38,7 @@
       "enabled": false,            "//": "Enable isocalendar plugin"
     },
     "languages":{
-      "enabled": false,            "//": "Enable languages plugin"
+      "enabled": true,            "//": "Enable languages plugin"
     },
     "topics":{
       "enabled": false,            "//": "Enable topics plugin"
