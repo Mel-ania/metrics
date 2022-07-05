@@ -32,8 +32,6 @@ jobs:
           base: ""
           plugin_languages: yes
           plugin_languages_sections: recently-used
-          plugin_languages_ignored: >-
-            java
           plugin_languages_recent_load: 1000
           plugin_languages_recent_days: 90
       - name: ISOMETRIC CALENDAR
